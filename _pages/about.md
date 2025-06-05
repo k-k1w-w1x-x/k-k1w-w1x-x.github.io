@@ -20,6 +20,6 @@ Hi，我是一名就读于北京理工大学软件工程专业的大三学生，
 
 我的[个人博客](https://www.cnblogs.com/WXk-k)主要围绕算法竞赛和编程知识的学习展开，记录了我的学习历程和心得体会。
 
-我的[GitHub](https://github.com/WXk-k)上包含了我的项目对应的开源代码，readme中有项目的详细介绍(大部分包含在线PPT链接)，如[基于Bandit模型的A3C改进策略](https://github.com/k-k1w-w1x-x/RL-A3C)。由于我正在完善许多项目的文档和整理代码，所以很多仓库暂时被设为了私有状态。
+我的[GitHub](https://github.com/WXk-k)上包含了我的项目对应的开源代码，readme中有项目的详细介绍(大部分包含在线PPT链接)，如[基于Bandit模型的A3C改进策略(BIT 2024 Winter强化学习课程满分大作业)](https://github.com/k-k1w-w1x-x/RL-A3C)。由于我正在完善许多项目的文档和整理代码，所以很多仓库暂时被设为了私有状态。
 
 如果您对我的研究感兴趣，或希望索要论文pdf，欢迎通过[电子邮件](mailto:wangxk0223@gmail.com)联系我！
