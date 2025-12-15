@@ -15,7 +15,7 @@ My research interests broadly lie in Trustworthy AI and Reinforcement Learning. 
 
 I have been fortunate to gain extensive research experience during my undergraduate studies. I was a research intern at the **State Key Laboratory of AI Safety, Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)**, advised by [Prof. Shengyu Zhu](https://scholar.google.com/citations?user=ExampleID). During this internship, I proposed *Speculative Safety-Aware Decoding (SSD)*, a novel decoding-time defense mechanism, which was accepted to the **EMNLP 2025 Main Conference** as a **first-author** paper ([Paper PDF](/files/EMNLP2025_SSD.pdf)).
 
-Before focusing on Safety-Aware Decoding, I researched defensive mechanisms in Federated Learning advised by Prof. Jinyan Liu, with one paper currently under review. I also worked on LLM Evaluation with Prof. Yang Song, where we developed evaluation metrics for RAG-based chatbots, leading to a co-first author paper accepted by ICBAIE 2024.
+Before focusing on Safety-Aware Decoding, I researched defensive mechanisms in Federated Learning advised by [Prof. Jinyan Liu](https://cs.bit.edu.cn/szdw/jsml2/rjznyrjgcyjs2/680a2f55144449cfba0b807317c3cea3.htm), with one paper currently under review. I also worked on LLM Evaluation with [Prof. Yang Song](https://people.uncw.edu/songy/) (UNCW), where we developed evaluation metrics for RAG-based chatbots, leading to a co-first author paper accepted by ICBAIE 2024.
 
 Beyond research, I am a competitive programmer with a strong interest in algorithms. I have won the **Silver Medal** in the **ACM-ICPC Regional Contest** and the Silver Medal in the CCPC National Invitational Contest. 
 
@@ -23,6 +23,17 @@ Beyond research, I am a competitive programmer with a strong interest in algorit
 
 ### 📄 Vita
 You can find my detailed **Curriculum Vitae** [here](/files/resume.pdf).
+
+### 🧾 Selected Publications
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+{% if pubs and pubs.size > 0 %}
+{% for post in pubs limit:3 %}
+- **{{ post.title }}**, *{{ post.venue }}* ({{ post.date | date: "%Y" }})  
+  {% if post.paperurl %}[PDF]({{ post.paperurl }}){% endif %}{% if post.paperurl and post.link %} · {% endif %}{% if post.link %}[Project / Code]({{ post.link }}){% endif %}
+{% endfor %}
+{% else %}
+No publications listed yet. Please check back later.
+{% endif %}
 
 ### 💻 Code & Projects
 My [GitHub](https://github.com/k-k1w-w1x-x) contains source code for my research projects and coursework. 
