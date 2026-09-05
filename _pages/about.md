@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year undergraduate student majoring in Software Engineering at the **Beijing Institute of Technology (BIT)**. I am an incoming Ph.D. student at the **Shenzhen International Graduate School, Tsinghua University**(THU SIGS), starting in 2026, advised by [Prof. Xiaozhi Wang](https://bakser.github.io/).
+I am a first-year Ph.D. student at the **Shenzhen International Graduate School, Tsinghua University (THU SIGS)**, advised by [Prof. Xiaozhi Wang](https://bakser.github.io/). Prior to this, I received my B.Eng. in Software Engineering from the **Beijing Institute of Technology (BIT)** in 2026.
 
 My research interests broadly lie in Trustworthy AI and Reinforcement Learning. Specifically, I focus on:
 *   **LLM Safety & Alignment:** Building efficient and safe AI systems based on Large Language Models.
-*   **Reinforcement Learning:** Exploring efficient RL methods for LLMs based on verifiable rewards(**RLVR**).
+*   **RL & Reward Modeling for LLMs** Studying reward design, reward hacking dynamics (e.g., in rubric-based RL/RLAIF), and verifiable training mechanisms.
 
 I have been fortunate to gain extensive research experience during my undergraduate studies. I was a research intern at the **State Key Laboratory of AI Safety, Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)**, advised by [Prof. Shengyu Zhu](https://zhushyu.github.io/). During this internship, I proposed *Speculative Safety-Aware Decoding (SSD)*, a novel decoding-time defense mechanism, which was accepted to the **EMNLP 2025 Main Conference** as a **first-author** paper ([Paper PDF](/files/EMNLP2025_SSD.pdf)).
 
@@ -37,6 +37,7 @@ No publications listed yet. Please check back later.
 
 ### 💻 Code & Projects
 My [GitHub](https://github.com/k-k1w-w1x-x) contains source code for my research projects and coursework. 
+*   **[CHERRL (Controllable Hacking Environment for Rubric-based RL)](https://github.com/THUAIS-Lab/CHERRL):** A controllable benchmark and testbed for studying and detecting reward hacking in LLM-as-a-Judge reinforcement learning.
 *   **[Speculative Safety-Aware Decoding](https://github.com/k-k1w-w1x-x/Speculative-Safety-Aware-Decoding):** Official implementation of my EMNLP 2025 paper.
 *   **[Improved A3C with Bandit Models](https://github.com/k-k1w-w1x-x/RL-A3C):** A course project for *Reinforcement Learning* at BIT (received full marks), exploring strategy improvements for A3C.
 *   *Note: Some interesting repositories are currently private as I am organizing documentation and cleaning up the codebases.*
