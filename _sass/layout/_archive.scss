@@ -105,6 +105,16 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  .archive__item-teaser {
+    margin-bottom: 1em;
+
+    @include breakpoint($small) {
+      float: left;
+      width: span(4 of 12);
+      margin-right: gutter(4 of 12);
+    }
+  }
 }
 
 
